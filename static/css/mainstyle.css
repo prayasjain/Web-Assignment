@@ -1,0 +1,80 @@
+h3,h2,h1,h4 {
+	color:black ;
+	text-align:center;
+
+
+}
+h1.ti{
+color:black;
+font-family:"Lucida Console" ;
+font-size:50px ;
+}
+
+h4.pts ,h2.pts{
+    color:black ;
+    text-align:left ;
+}
+h3.pts{
+text-align:left ;
+font-size:20px ;
+}
+h4.note{
+    color:red ;
+
+    text-align:left ;
+    padding-top:200px ;
+}
+p{
+    color:white ;
+}
+body {
+    padding-top:45px ;
+    padding-left:80px;
+    background-color: #e5e4e2;
+
+
+
+}
+#top, #bottom, #left, #right {
+	background-color: #db4437;
+
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 35px;
+
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 35px;
+		}
+		#top { top: 0; }
+		#bottom {
+		 height: 55px ;
+		bottom: 0; }
+	#top2, #bottom2, #left2, #right2 {
+	background-color: #e5e4e2 ;
+	border-radius: 50px 50px 50px 50px;
+
+	position: fixed;
+	}
+	#left2, #right2 {
+		top: 25px; bottom: 45px;
+		width: 25px;
+
+		}
+		#left2 { left: 30px; }
+		#right2 { right: 30px; }
+
+	#top2, #bottom2 {
+		left: 35px; right: 35px;
+		height: 25px;
+		}
+		#top2 { top: 25px; }
+		#bottom2 {
+		 height: 25px ;
+		bottom: 45px; }

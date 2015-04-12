@@ -1,0 +1,118 @@
+h3,h2,h1 {
+	color:white ;
+	text-align:center;
+
+
+}
+
+h1.ti{
+color:black;
+font-family:"Lucida Console" ;
+font-size:50px ;
+}
+
+.name,.home,.air,.board,.lang,.intr,.cg,.course{
+    position:absolute ;
+    left:30px;
+    top:10px;
+    color:black ;
+    text-align:left;
+    padding-left:8px ;
+
+    border-radius:15px 50px 30px 5px;
+    /*background: #8AC007;*/
+    background: #00ced1 ;
+    padding-top:10px ;
+    padding-right:18px ;
+
+    height: 35px;
+}
+.home{
+
+    top:60px;
+
+}
+.air{
+    top:110px ;
+
+
+}
+.board{
+    top:160px ;
+
+
+}
+.lang{
+    top:210px;
+}
+.intr{
+    top:260px ;
+}
+.cg{
+    top:310px ;
+}
+.course{
+    top:360px ;
+}
+div.bor{
+
+    border-radius: 15px 50px 30px;
+    border:solid 3px red ;
+    width:750px;
+    height:450px;
+    position:absolute ;
+    left:540px;
+    top:140px;
+}
+body {
+    padding-top:15px ;
+    padding-left:40px;
+   background-color: #e5e4e2;
+
+
+
+}
+#top, #bottom, #left, #right {
+	background-color: #db4437;
+
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 35px;
+
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 35px;
+		}
+		#top { top: 0; }
+		#bottom {
+		 height: 55px ;
+		bottom: 0; }
+	#top2, #bottom2, #left2, #right2 {
+	background-color: #e5e4e2 ;
+	border-radius: 50px 50px 50px 50px;
+
+	position: fixed;
+	}
+	#left2, #right2 {
+		top: 25px; bottom: 45px;
+		width: 25px;
+
+		}
+		#left2 { left: 30px; }
+		#right2 { right: 30px; }
+
+	#top2, #bottom2 {
+		left: 35px; right: 35px;
+		height: 25px;
+		}
+		#top2 { top: 25px; }
+		#bottom2 {
+		 height: 25px ;
+		bottom: 45px; }
+
